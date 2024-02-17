@@ -5,24 +5,39 @@ import React from 'react'
 // import Welcome from './components/Welcome';
 // import Hello from './components/Hello';
 // import Message from './components/Message';
-import Counter from './components/Counter';
+// import Counter from './components/Counter';
+// import FunctionClick from './components/FunctionClick';
+// import ClassClick from './components/ClassClick';
+// import EventBind from './components/EventBind';
+// import ParentComponenet from './components/ParentComponenet';
+import UserGreeting from './components/UserGreeting';
 
+ 
 function App() {
   return (
     <div className="App">
-      <Counter/> 
+      {/* <Counter/>  */}
       {/* <Message/> */}
-      {/* <Greet name="Ramesh">
+       {/* <Greet name="Ramesh" heroName = "Kumar">
       <p>This is Ramesh</p>
       </Greet>
-      <Greet name="Clark">
+      <Greet name="Clark" heroName = "Kumar2">
         <button>Action</button>
       </Greet>
-      <Greet name="Ravi"/>
-      <Welcome name="Ramesh" heroName = "Kumar"/>
+      <Greet name="Ravi" heroName = "Kumar3"/>  */}
+       {/* <Welcome name="Ramesh" heroName = "Kumar"/>
       <Welcome name="Ramesh2" heroName = "Kumar2"/>
-      <Welcome name="Ramesh3" heroName = "Kumar3"/> 
-       <Hello/>  */}
+      <Welcome name="Ramesh3" heroName = "Kumar3"/>  */}
+       {/* <Hello/>   */}
+
+       {/* <FunctionClick/>
+       <ClassClick/> */}
+
+       {/* <EventBind/>*/}
+
+       {/* <ParentComponenet/> */}
+
+       <UserGreeting/>
     </div>
   );
 }
