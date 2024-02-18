@@ -10,7 +10,12 @@ import React from 'react'
 // import ClassClick from './components/ClassClick';
 // import EventBind from './components/EventBind';
 // import ParentComponenet from './components/ParentComponenet';
-import UserGreeting from './components/UserGreeting';
+// import UserGreeting from './components/UserGreeting';
+// import NameList from './components/NameList';
+// import Form from './components/Form';
+
+// import LifecycleA from './components/LifecycleA';
+import UpdatelifecycleA from './components/UpdatelifecycleA';
 
  
 function App() {
@@ -37,7 +42,14 @@ function App() {
 
        {/* <ParentComponenet/> */}
 
-       <UserGreeting/>
+       {/* <UserGreeting/> */}
+
+       {/* <NameList/> */}
+
+       {/* <Form/> */}
+
+       {/* <LifecycleA/> */}
+       <UpdatelifecycleA/>
     </div>
   );
 }
