@@ -1,0 +1,13 @@
+.btn{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.botton{
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+    border-radius: 5px;
+}
+
